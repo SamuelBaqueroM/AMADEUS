@@ -11,7 +11,7 @@ This repository contains the source code for a Product Management web applicatio
 1. Clone this repository:
 
     ```bash
-    git clone <product-management-app-repo-url>
+    git clone https://github.com/SamuelBaqueroM/AMADEUS
     ```
 
 2. Navigate to the `product-management-app` directory:
@@ -31,7 +31,7 @@ This repository contains the source code for a Product Management web applicatio
 1. Clone this repository:
 
     ```bash
-    git clone <product-management-api-repo-url>
+    git clone https://github.com/SamuelBaqueroM/AMADEUS
     ```
 
 2. Navigate to the `ProductManagementApi` directory:

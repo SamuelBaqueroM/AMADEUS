@@ -1,0 +1,78 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Node.js
+product-management-app/node_modules/
+
+# Angular
+product-management-app/dist/
+product-management-app/e2e/
+product-management-app/.angular
+
+# .NET Core
+ProductManagementApi/bin/
+ProductManagementApi/obj/
+*.dll
+*.exe
+*.pdb
+*.user
+*.vscode/
+ProductManagementApi/vs/
+*.suo
+*.cache
+*.log
+
+# Visual Studio
+*.sln
+*.vcproj
+*.vcxproj
+*.sw??
+*.user
+*.suo
+*.cache
+*.log
+
+# Rider
+ProductManagementApi/idea/
+
+# Package Files
+*.nupkg
+*.pkl
+
+# Miscellaneous
+[Tt]humbs.db
+*.log*
+*.tmp
+*~
+*~
+*.DS_Store

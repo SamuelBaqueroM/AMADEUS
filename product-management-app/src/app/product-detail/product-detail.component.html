@@ -1,0 +1,14 @@
+<div class="product-detail">
+    <div *ngIf="product">
+      <h2>{{ product?.productName }}</h2>
+      <p><strong>Price:</strong> {{ product?.price }}</p>
+      <p><strong>Description:</strong> {{ product?.productDescription }}</p>
+      <p><strong>Category:</strong> {{ product?.category }}</p>
+      <p><strong>Quantity in stock:</strong> {{ product?.quantityInStock }}</p>
+      <p><strong>Category:</strong> {{ product?.category }}</p>
+      <p><strong>SupplierName:</strong> {{ product?.supplierName }}</p>
+      <p><strong>DateAdded:</strong> {{ product?.dateAdded }}</p>
+      <p><strong>ExpirationDate:</strong> {{ product?.expirationDate }}</p>
+    </div>
+    <div *ngIf="!product">Product not found!</div>
+  </div>

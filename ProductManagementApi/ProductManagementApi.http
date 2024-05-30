@@ -1,0 +1,33 @@
+@ProductManagementApi_HostAddress = http://localhost:5016
+
+### Product Endpoints ###
+
+# Get all products
+GET {{ProductManagementApi_HostAddress}}/api/products
+
+# Get a specific product by ID
+GET {{ProductManagementApi_HostAddress}}/api/products/1
+
+# Add a new product
+POST {{ProductManagementApi_HostAddress}}/api/products
+Content-Type: application/json
+
+{
+  "name": "New Product",
+  "description": "Description of the new product",
+  "price": 99.99
+}
+
+# Update an existing product
+PUT {{ProductManagementApi_HostAddress}}/api/products/1
+Content-Type: application/json
+
+{
+  "name": "Updated Product Name",
+  "description": "Updated description",
+  "price": 129.99
+}
+
+# Delete a product
+DELETE {{ProductManagementApi_HostAddress}}/api/products/1
+###
